@@ -1,0 +1,424 @@
+html{
+    background-color: #f8f9fa;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+   text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+
+}   header{
+    display: flex;
+    background-color: #e3e5e7;
+    width: 100%;
+    padding-bottom: 3rem;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    width: 15%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.w3-bar{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  
+}
+
+.w4-bar{
+    display: flex;
+    margin-top: 4.8rem;
+    margin-left: 30rem;
+}
+
+
+.link1{
+    font-size: 2.3rem;
+}
+
+.right-nav{
+    margin-left: 3.4rem;
+}
+
+.second-btn{
+height: 4rem;
+width: 160px;
+background-color:  crimson;
+border: none;
+border-radius: 0.5rem;
+color: white;
+cursor: pointer;
+}
+
+.full-nav{
+    margin-right: 4rem;
+}
+
+.full-nav a{
+    font-size: 1.5rem;
+}
+
+.first-btn{
+    background-color: #fff;
+    border: none;
+    margin-bottom: 1.6rem;
+    margin-left: 1rem;
+    height: 3rem;
+    width: 150px;
+}
+
+.bbc{
+    width: 100%;
+    margin-top: 20rem;
+}
+
+.bbc-texts h1{
+    width: 50%;
+    font-size: 3.3rem;
+}
+
+.bbc-texts p{
+    margin-top: 3rem;
+    font-size: 1.9rem;
+    width: 78%;
+    line-height: 3rem;
+    
+}
+
+.bbc-text p{
+    display: inline;
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.bbc-texts button{
+    font-size: 1.6rem;
+    margin-top: 1.3rem;
+    width: 20%;
+    height: 5rem;
+    font-weight: 600;
+    color: white;
+    background-color: crimson;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bbc-image{
+    width: 100%;
+}
+
+.bbc-image img{
+    width: 100%;
+}
+
+.bbc-contents{
+    display: flex;
+    width: 90%;
+    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Access{
+    width: 100%;
+    background-color: chocolate;
+    margin-top: 10rem;
+    height: 39rem;
+}
+ 
+
+.second-image{
+    width: 100%;
+} 
+.access-contents{
+    display: flex;
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.access-texts{
+   
+    width: 40%;
+}
+
+.access-images{
+    
+    display: flex;
+    width: 60%;
+}
+
+.search{
+    width: 100%;
+    background-color: darkseagreen;
+    margin-top: 10rem;
+}
+
+
+
+.shipment{
+    width: 100%;
+    background-color: gold;
+    margin-top: 10rem;
+}
+
+.shipment-contents{
+    background-color: greenyellow;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.shipment-bar{
+    background-color: lightpink;
+   margin-left: 7rem;
+    display: flex;
+}
+
+.update{
+    margin-right: 3rem;
+    padding: 50px 0;
+    height: 12rem;
+    background-color: darkblue;
+    color: white;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.shipment-text{
+    width: 50%;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.Access{
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.access-texts h1{
+   font-size: 3rem;
+   margin-top: 8rem;
+}
+
+.access-texts p{
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    width: 90%;
+}
+
+.img-y{
+    width: 40%; 
+    margin-top: 9rem;
+    margin-left: 4rem;
+}
+
+.third-image{
+    width: 100%;
+}
+
+.third-image img{
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.search-texts{
+font-size: 16px;
+margin-top: 13rem;
+}
+
+.search-texts h2{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.search-texts h1{
+    margin-bottom: 3rem;
+    font-size: 2.7rem;
+    width: 70%;
+}
+
+/* #sub-2{
+    width: 90%;
+    background-color: blanchedalmond;
+} */
+
+ .search-texts li {
+ list-style: disc;
+ width: 70%;
+}
+
+.search-image {
+    width: 54%;
+}
+
+.search-image img{
+    width: 100%;
+    background-color: chartreuse;
+}
+
+.search-contents{
+    width: 90%;
+    background-color: deepskyblue;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+}
+
+.shipment-text h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.shipment-text p{
+    font-size: 1.8rem;
+    width: 90%;
+    line-height: 2.4rem;
+    font-weight: 600;
+}
+
+.shipment-text button{
+    width: 21%;
+    height: 5rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        background-color: violet;
+    }
+    
+    
+
+    header {
+       
+        background-color: black;
+        position: static;
+       color: white;
+       display: grid;
+       width: 100% ;
+       height: 50%; 
+
+    }
+
+     .bbc-contents{
+    display: grid;
+    background-color: aqua;  
+    }
+                      
+    .bbc-texts h1{
+        width: 100%;
+    }
+
+    .access-contents{
+        display: grid;
+        margin-bottom: 5rem;
+    }
+
+    .second-image{
+        width: 100%;
+        background-color: rgb(71, 255, 148)
+    }
+
+    .second-image img{
+        width: 100%;
+    }
+
+    .third-image{
+        
+        display: block;
+    }
+
+    .third-image img{
+        display: block;
+    }
+    .access-texts h1 {
+        width: 230%;
+    }
+
+    .access-texts p{
+        width: 210%;
+    }
+
+    .search-contents{
+        width: 100%;
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        height: 65rem;
+    }
+
+    .search-image{
+        width: 100%;
+        background-color: rgb(71, 255, 148)
+    }
+
+    .search-image img{
+        width: 100%;
+    }
+
+    .search-texts{
+        background-color: chocolate;
+    }
+
+
+}
+
+.company{
+    margin-top: 4rem;
+}
+
+.company h1 {
+    font-size: 2.9rem;
+    text-align: center;
+}
+
+.company-p{
+   
+}
+
+#globalw{
+  display: flex;
+  background-color: yellow;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.global{
+    font-size: 2rem;
+    height: 19rem;
+    margin-right: 2rem;
+    background-color: yellowgreen;
+}
+
+
